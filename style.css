@@ -1,0 +1,177 @@
+body{
+  background-color: #84BEFF;
+}
+
+
+
+a{
+  text-decoration: none;
+  list-style: none;
+  color:#d4d4d8;
+
+  transition: .2s;
+}
+a:hover{
+  text-decoration: none;
+  list-style: none;
+  color:white;
+}
+a:active{
+  font-size: 15px;
+}
+.lin{
+  text-align: right;
+  padding: 15px;
+}
+.links{
+  margin:0 30px;
+text-transform:     uppercase;
+}
+
+.p1{
+    color: white;
+}
+
+hr{
+position: relative;
+top: 12px;
+left: 0px;
+}
+h1{
+  color:white;
+  font-weight: medium;
+  font-size: 48px;
+}
+h1+p{
+  font-weight: medium;
+  font-size: 18px;
+  color:#313131;
+}
+.h2_white{
+    color: white;
+}
+h2{
+  font-size: 48px;
+  font-weight: lighter;
+    
+}
+h2,h5,h4,h3{
+  text-transform:uppercase;
+}
+h6{
+  font-size: 14px;
+}
+h3{
+  color:white;
+}
+i{
+  font-size:100px;
+}
+
+
+.btn{
+  padding: .375rem 3.00rem;
+  border-radius:0rem;
+}
+.btn-lg{
+    text-transform: uppercase;
+}
+
+/*.btn_{
+    border: solid #E86666;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 10px;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+*/
+
+.btn-primary{
+  background-color: #3674ba;
+}
+.header{
+  background-color: #5b6169;
+  color:white;
+  font-weight:lighter;
+  padding:20px 0px;
+  position: relative;
+  top:0px;
+  left:0px;
+}
+.carousel-indicators {
+    justify-content: end;
+    margin-right: 0%;
+}
+.carousel-cap {
+    z-index: 10;
+    padding:10% 0%;
+    color: #fff;
+}
+.services{
+  background-color: white;
+}
+.block-about{
+  background-color: #5B6169;
+}
+#sticky-footer {
+  flex-shrink: none;
+}
+
+.zag{
+  padding:5% 0;
+  
+  font-weight: lighter;
+  text-align: center;
+}
+.zag>div{
+  text-align: center;
+}
+.headings,.ab-pad{
+  padding-bottom:10%;
+}
+.headings{
+  text-align: center;
+}
+
+.about-us{
+  padding: 10% 0%;
+}
+.progress{
+  margin-bottom: 10px;
+  height:30px;
+  text-transform: uppercase;
+  font-size: 14px;
+  border-radius: 0rem;
+}
+
+
+
+input{
+  width:100%;
+  margin: 5px 0px;
+}
+textarea{
+  width:100%;
+  height:118px;
+  resize: none;
+}
+input:nth-last-child(1){
+  width:20%;
+  padding: .375rem .75rem;
+  position:relative;
+  top:-45px;
+  left:431px;
+}
+
+
+@media (max-width:1206px){
+input:nth-last-child(1){
+  position:relative;
+  top:0px;
+  left:0px;
+}
+}
